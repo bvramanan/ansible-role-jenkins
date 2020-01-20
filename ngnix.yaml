@@ -5,7 +5,7 @@ metadata:
 spec:
    containers:
     - name: my-nginx
-      image: nginx
+      image: {{version}}
       ports:
       - containerPort: 80
         hostPort: 80
