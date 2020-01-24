@@ -77,7 +77,7 @@ metadata:
   name: lynx-nginx-{{app_service_name}}
 spec:
   rules:
-  - host: lynx-nginx-{{app_service_name}}.dev.stacklynx.com
+  - host: lynx-nginx-{{app_service_name}}.v3.train01.stacklynx.com
     http:
       paths:
       - path: /
